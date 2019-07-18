@@ -1,0 +1,297 @@
+/*
+
+Xilinx Vivado v2018.2 (64-bit) [Major: 2018, Minor: 2]
+SW Build: 2258646 on Thu Jun 14 20:03:12 MDT 2018
+IP Build: 2256618 on Thu Jun 14 22:10:49 MDT 2018
+
+Process ID: 1716
+License: Customer
+
+Current time: 	Mon Nov 26 17:04:30 EET 2018
+Time zone: 	Eastern European Time (Europe/Helsinki)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1366x768
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 92 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	C:/myXilinx/Vivado/2018.2/tps/win64/jre
+Java executable location: 	C:/myXilinx/Vivado/2018.2/tps/win64/jre/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 2 GB
+
+
+User name: 	Dismas
+User home directory: C:/Users/Dismas
+User working directory: C:/Users/Dismas/Desktop/VHDL_parameterizable_multiplier_project_5/parameterizable_multiplier
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: C:/myXilinx/Vivado
+HDI_APPROOT: C:/myXilinx/Vivado/2018.2
+RDI_DATADIR: C:/myXilinx/Vivado/2018.2/data
+RDI_BINDIR: C:/myXilinx/Vivado/2018.2/bin
+
+Vivado preferences file location: C:/Users/Dismas/AppData/Roaming/Xilinx/Vivado/2018.2/vivado.xml
+Vivado preferences directory: C:/Users/Dismas/AppData/Roaming/Xilinx/Vivado/2018.2/
+Vivado layouts directory: C:/Users/Dismas/AppData/Roaming/Xilinx/Vivado/2018.2/layouts
+PlanAhead jar file location: 	C:/myXilinx/Vivado/2018.2/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/Dismas/Desktop/VHDL_parameterizable_multiplier_project_5/parameterizable_multiplier/vivado.log
+Vivado journal file location: 	C:/Users/Dismas/Desktop/VHDL_parameterizable_multiplier_project_5/parameterizable_multiplier/vivado.jou
+Engine tmp dir: 	C:/Users/Dismas/Desktop/VHDL_parameterizable_multiplier_project_5/parameterizable_multiplier/.Xil/Vivado-1716-DESKTOP-56CSALG
+
+Xilinx Environment Variables
+----------------------------
+XILINX: C:/myXilinx/Vivado/2018.2/ids_lite/ISE
+XILINX_DSP: C:/myXilinx/Vivado/2018.2/ids_lite/ISE
+XILINX_PLANAHEAD: C:/myXilinx/Vivado/2018.2
+XILINX_SDK: C:/myXilinx/SDK/2018.2
+XILINX_VIVADO: C:/myXilinx/Vivado/2018.2
+XILINX_VIVADO_HLS: C:/myXilinx/Vivado/2018.2
+
+
+GUI allocated memory:	120 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 465 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// [GUI Memory]: 18 MB (+16733kb) [00:00:07]
+// [Engine Memory]: 270 MB (+131734kb) [00:00:08]
+// WARNING: HTimer (WrapperUtils Delayed Delete Timer) is taking 360ms to process. Increasing delay to 2000 ms.
+// TclEventType: START_GUI
+// [Engine Memory]: 305 MB (+22849kb) [00:00:16]
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bx (ck):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\Dismas\Desktop\VHDL_parameterizable_multiplier_project_5\parameterizable_multiplier\parameterizable_multiplier.xpr. Version: Vivado v2018.2 
+// [GUI Memory]: 67 MB (+50047kb) [00:01:46]
+// [Engine Memory]: 465 MB (+151676kb) [00:01:46]
+// HMemoryUtils.trashcanNow. Engine heap size: 465 MB. GUI used memory: 35 MB. Current time: 11/26/18 5:04:31 PM EET
+// Tcl Message: open_project C:/Users/Dismas/Desktop/VHDL_parameterizable_multiplier_project_5/parameterizable_multiplier/parameterizable_multiplier.xpr 
+// Tcl Message: INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. Current project path is 'C:/Users/Dismas/Desktop/VHDL_parameterizable_multiplier_project_5/parameterizable_multiplier' 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project C:/Users/Dismas/Desktop/VHDL_parameterizable_multiplier_project_5/parameterizable_multiplier/parameterizable_multiplier.xpr 
+// Tcl Message: INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. Current project path is 'C:/Users/Dismas/Desktop/VHDL_parameterizable_multiplier_project_5/parameterizable_multiplier' 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/myXilinx/Vivado/2018.2/data/ip'. 
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 492 MB (+3522kb) [00:02:52]
+// [Engine Memory]: 518 MB (+1613kb) [00:02:57]
+// HMemoryUtils.trashcanNow. Engine heap size: 518 MB. GUI used memory: 37 MB. Current time: 11/26/18 5:05:45 PM EET
+// Project name: parameterizable_multiplier; location: C:/Users/Dismas/Desktop/VHDL_parameterizable_multiplier_project_5/parameterizable_multiplier; part: xc7a100tcsg324-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:20 ; elapsed = 00:01:17 . Memory (MB): peak = 673.004 ; gain = 44.793 
+dismissDialog("Open Project"); // bx (ck)
+// WARNING: HTimer (FileMgr Design Graph Update Timer) is taking 728ms to process. Increasing delay to 3000 ms.
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Message: update_compile_order -fileset sources_1 
+// HMemoryUtils.trashcanNow. Engine heap size: 538 MB. GUI used memory: 36 MB. Current time: 11/26/18 5:06:15 PM EET
+// PAPropertyPanels.initPanels (multiplier.vhd) elapsed time: 0.5s
+// Elapsed time: 56 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, multiplier_tb(Behavioral) (multiplier_tb.vhd), uut : multiplier(Behavioral) (multiplier.vhd)]", 2, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, multiplier_tb(Behavioral) (multiplier_tb.vhd), uut : multiplier(Behavioral) (multiplier.vhd)]", 2, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, multiplier_tb(Behavioral) (multiplier_tb.vhd)]", 1, true); // B (D, ck) - Node
+// Elapsed time: 10 seconds
+selectCodeEditor("multiplier.vhd", 105, 356); // ce (w, ck)
+// [Engine Memory]: 547 MB (+2908kb) [00:04:19]
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (ck): No Implementation Results Available: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// bx (ck):  Resetting Runs : addNotify
+// f (ck): Launch Runs: addNotify
+dismissDialog("No Implementation Results Available"); // A (ck)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+dismissDialog("Launch Runs"); // f (ck)
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 2 
+// bx (ck):  Generate Bitstream : addNotify
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// [GUI Memory]: 77 MB (+6721kb) [00:04:27]
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Mon Nov 26 17:07:12 2018] Launched synth_1... Run output will be captured here: C:/Users/Dismas/Desktop/VHDL_parameterizable_multiplier_project_5/parameterizable_multiplier/parameterizable_multiplier.runs/synth_1/runme.log [Mon Nov 26 17:07:12 2018] Launched impl_1... Run output will be captured here: C:/Users/Dismas/Desktop/VHDL_parameterizable_multiplier_project_5/parameterizable_multiplier/parameterizable_multiplier.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bx (ck)
+// HMemoryUtils.trashcanNow. Engine heap size: 558 MB. GUI used memory: 39 MB. Current time: 11/26/18 5:07:15 PM EET
+// TclEventType: RUN_COMPLETED
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking 639ms to process. Increasing delay to 2000 ms.
+// WARNING: HTimer (ExpRunMgr Pending Runs Timer) is taking 567ms to process. Increasing delay to 3000 ms.
+// TclEventType: RUN_STEP_COMPLETED
+// [GUI Memory]: 83 MB (+2550kb) [00:07:18]
+// Elapsed time: 250 seconds
+selectCodeEditor("multiplier.vhd", 459, 229); // ce (w, ck)
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking 983ms to process. Increasing delay to 3000 ms.
+// TclEventType: RUN_COMPLETED
+// WARNING: HTimer (ExpRunMgr Pending Runs Timer) is taking 3680ms to process. Increasing delay to 4000 ms.
+// ah (ck): Bitstream Generation Completed: addNotify
+// Elapsed time: 68 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER, "Open Hardware Manager"); // a (Q, ah)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Tcl Command: 'load_features labtools'
+// TclEventType: LOAD_FEATURE
+// bx (ck):  Open Hardware Manager : addNotify
+// Tcl Message: open_hw 
+// TclEventType: HW_SESSION_OPEN
+// PAPropertyPanels.initPanels (multiplier_tb.vhd) elapsed time: 0.4s
+// Tcl Message: open_hw: Time (s): cpu = 00:00:05 ; elapsed = 00:00:08 . Memory (MB): peak = 712.191 ; gain = 1.316 
+// 'Q' command handler elapsed time: 16 seconds
+// Elapsed time: 16 seconds
+dismissDialog("Open Hardware Manager"); // bx (ck)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Open Target]", 22, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HW_TARGET
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ad (aj, ck)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// bx (ck):  Auto Connect : addNotify
+// Tcl Message: connect_hw_server 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// Tcl Message: INFO: [Labtools 27-2222] Launching hw_server... 
+// Tcl Message: INFO: [Labtools 27-2221] Launch Output:  ****** Xilinx hw_server v2018.2   **** Build date : Jun 14 2018-20:42:52     ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.   
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: connect_hw_server: Time (s): cpu = 00:00:01 ; elapsed = 00:00:10 . Memory (MB): peak = 719.500 ; gain = 0.000 
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: open_hw_target 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292745139A 
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// Tcl Message: open_hw_target: Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1353.594 ; gain = 634.094 
+// HMemoryUtils.trashcanNow. Engine heap size: 988 MB. GUI used memory: 44 MB. Current time: 11/26/18 5:13:11 PM EET
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/Dismas/Desktop/VHDL_parameterizable_multiplier_project_5/parameterizable_multiplier/parameterizable_multiplier.runs/impl_1/multiplier.bit} [get_hw_devices xc7a100t_0] 
+// Tcl Message: current_hw_device [get_hw_devices xc7a100t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// [Engine Memory]: 996 MB (+442165kb) [00:10:26]
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// Elapsed time: 17 seconds
+dismissDialog("Auto Connect"); // bx (ck)
+// Elapsed time: 10 seconds
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 520, 83); // dn (ae, ck)
+// Elapsed time: 11 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Program Device]", 23, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectMenuItem((HResource) null, "xc7a100t_0"); // ad (aj, ck)
+// PAPropertyPanels.initPanels (xc7a100t_0) elapsed time: 0.2s
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bB (ck): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bB)
+// bx (ck):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // bB (ck)
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a100t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/Dismas/Desktop/VHDL_parameterizable_multiplier_project_5/parameterizable_multiplier/parameterizable_multiplier.runs/impl_1/multiplier.bit} [get_hw_devices xc7a100t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a100t_0] 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,020 MB. GUI used memory: 45 MB. Current time: 11/26/18 5:13:40 PM EET
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'I' command handler elapsed time: 5 seconds
+dismissDialog("Program Device"); // bx (ck)
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// Tcl Message: ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210292745139A 
+// n (ck): Close Hardware Target: addNotify
+// TclEventType: HW_SERVER_UPDATE
+// Elapsed time: 134 seconds
+dismissDialog("Close Hardware Target"); // n (ck)
+// PAResourceOtoP.PAViews_HARDWARE: Hardware: close view
+// RDIResource.RDIViews_PROPERTIES: Properties: close view
+// Elapsed time: 18 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0, true); // u (O, ck) - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_PROJECT_MANAGER
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 7); // B (D, ck)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 8); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, multiplier_tb(Behavioral) (multiplier_tb.vhd)]", 9, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, multiplier_tb(Behavioral) (multiplier_tb.vhd)]", 9, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+// [GUI Memory]: 88 MB (+488kb) [00:13:38]
+selectCodeEditor("multiplier_tb.vhd", 504, 165); // ce (w, ck)
+// Elapsed time: 58 seconds
+selectCodeEditor("multiplier_tb.vhd", 285, 344); // ce (w, ck)
+selectCodeEditor("multiplier_tb.vhd", 3, 341); // ce (w, ck)
+// Elapsed time: 30 seconds
+selectButton(RDIResourceCommand.RDICommands_LINE_COMMENT, (String) null); // B (f, ck)
+selectCodeEditor("multiplier_tb.vhd", 117, 264); // ce (w, ck)
+selectCodeEditor("multiplier_tb.vhd", 29, 362); // ce (w, ck)
+selectButton(PAResourceCommand.PACommandNames_TOGGLE_VIEW_NAV, (String) null); // B (E, ck)
+// Run Command: PAResourceCommand.PACommandNames_TOGGLE_VIEW_NAV
+selectCodeEditor("multiplier_tb.vhd", 246, 203); // ce (w, ck)
+selectCodeEditor("multiplier_tb.vhd", 238, 213); // ce (w, ck)
+selectCodeEditor("multiplier_tb.vhd", 251, 251); // ce (w, ck)
+selectCodeEditor("multiplier_tb.vhd", 248, 258); // ce (w, ck)
+selectCodeEditor("multiplier_tb.vhd", 248, 259, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("multiplier_tb.vhd", 239, 276); // ce (w, ck)
+selectCodeEditor("multiplier_tb.vhd", 238, 292); // ce (w, ck)
+selectCodeEditor("multiplier_tb.vhd", 237, 293, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("multiplier_tb.vhd", 202, 319); // ce (w, ck)
+selectCodeEditor("multiplier_tb.vhd", 44, 350); // ce (w, ck)
+selectCodeEditor("multiplier_tb.vhd", 164, 328); // ce (w, ck)
+selectCodeEditor("multiplier_tb.vhd", 176, 315); // ce (w, ck)
+selectCodeEditor("multiplier_tb.vhd", 238, 300); // ce (w, ck)
+selectCodeEditor("multiplier_tb.vhd", 510, 270); // ce (w, ck)
+selectCodeEditor("multiplier_tb.vhd", 495, 262); // ce (w, ck)
+selectCodeEditor("multiplier_tb.vhd", 492, 239); // ce (w, ck)
+selectCodeEditor("multiplier_tb.vhd", 415, 231); // ce (w, ck)
+selectCodeEditor("multiplier_tb.vhd", 459, 282); // ce (w, ck)
+selectCodeEditor("multiplier_tb.vhd", 398, 196); // ce (w, ck)
+selectCodeEditor("multiplier_tb.vhd", 360, 204); // ce (w, ck)
+// Elapsed time: 10 seconds
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// [GUI Memory]: 94 MB (+1991kb) [00:15:58]
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 109 seconds
+selectCodeEditor("multiplier_tb.vhd", 195, 315); // ce (w, ck)
+// Elapsed time: 370 seconds
+selectCodeEditor("multiplier_tb.vhd", 200, 199); // ce (w, ck)
+selectCodeEditor("multiplier_tb.vhd", 200, 194); // ce (w, ck)
+selectCodeEditor("multiplier_tb.vhd", 203, 188); // ce (w, ck)
+selectCodeEditor("multiplier_tb.vhd", 205, 180); // ce (w, ck)
+// Elapsed time: 147 seconds
+selectCodeEditor("multiplier_tb.vhd", 292, 204); // ce (w, ck)
+selectCodeEditor("multiplier_tb.vhd", 277, 172); // ce (w, ck)

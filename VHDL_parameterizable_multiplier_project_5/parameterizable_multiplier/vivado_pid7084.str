@@ -1,0 +1,114 @@
+/*
+
+Xilinx Vivado v2018.2 (64-bit) [Major: 2018, Minor: 2]
+SW Build: 2258646 on Thu Jun 14 20:03:12 MDT 2018
+IP Build: 2256618 on Thu Jun 14 22:10:49 MDT 2018
+
+Process ID: 7084
+License: Customer
+
+Current time: 	Mon Nov 26 17:37:13 EET 2018
+Time zone: 	Eastern European Time (Europe/Helsinki)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1366x768
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 752 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	C:/DigiXilinx/Vivado/2018.2/tps/win64/jre
+Java executable location: 	C:/DigiXilinx/Vivado/2018.2/tps/win64/jre/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 2 GB
+
+
+User name: 	toles
+User home directory: C:/Users/toles
+User working directory: F:/Digital Systems design with VHDL/VHDL_parameterizable_multiplier_project_5/parameterizable_multiplier
+User country: 	GB
+User language: 	en
+User locale: 	en_GB
+
+RDI_BASEROOT: C:/DigiXilinx/Vivado
+HDI_APPROOT: C:/DigiXilinx/Vivado/2018.2
+RDI_DATADIR: C:/DigiXilinx/Vivado/2018.2/data
+RDI_BINDIR: C:/DigiXilinx/Vivado/2018.2/bin
+
+Vivado preferences file location: C:/Users/toles/AppData/Roaming/Xilinx/Vivado/2018.2/vivado.xml
+Vivado preferences directory: C:/Users/toles/AppData/Roaming/Xilinx/Vivado/2018.2/
+Vivado layouts directory: C:/Users/toles/AppData/Roaming/Xilinx/Vivado/2018.2/layouts
+PlanAhead jar file location: 	C:/DigiXilinx/Vivado/2018.2/lib/classes/planAhead.jar
+Vivado log file location: 	F:/Digital Systems design with VHDL/VHDL_parameterizable_multiplier_project_5/parameterizable_multiplier/vivado.log
+Vivado journal file location: 	F:/Digital Systems design with VHDL/VHDL_parameterizable_multiplier_project_5/parameterizable_multiplier/vivado.jou
+Engine tmp dir: 	F:/Digital Systems design with VHDL/VHDL_parameterizable_multiplier_project_5/parameterizable_multiplier/.Xil/Vivado-7084-DESKTOP-LL0TC1M
+
+Xilinx Environment Variables
+----------------------------
+XILINX: C:/DigiXilinx/Vivado/2018.2/ids_lite/ISE
+XILINX_DSP: C:/DigiXilinx/Vivado/2018.2/ids_lite/ISE
+XILINX_PLANAHEAD: C:/DigiXilinx/Vivado/2018.2
+XILINX_SDK: C:/DigiXilinx/SDK/2018.2
+XILINX_VIVADO: C:/DigiXilinx/Vivado/2018.2
+XILINX_VIVADO_HLS: C:/DigiXilinx/Vivado/2018.2
+
+
+GUI allocated memory:	154 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 459 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 48 MB (+47931kb) [00:00:12]
+// [Engine Memory]: 452 MB (+322476kb) [00:00:12]
+// bx (ck):  Open Project : addNotify
+// Opening Vivado Project: F:\Digital Systems design with VHDL\VHDL_parameterizable_multiplier_project_5\parameterizable_multiplier\parameterizable_multiplier.xpr. Version: Vivado v2018.2 
+// Tcl Message: open_project {F:/Digital Systems design with VHDL/VHDL_parameterizable_multiplier_project_5/parameterizable_multiplier/parameterizable_multiplier.xpr} 
+// Tcl Message: INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. Current project path is 'F:/Digital Systems design with VHDL/VHDL_parameterizable_multiplier_project_5/parameterizable_multiplier' 
+// WARNING: HTimer (HSTRUtils Dump STR Log Timer) is taking 6445ms to process. Increasing delay to 4000 ms.
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 459 MB. GUI used memory: 33 MB. Current time: 11/26/18 5:37:17 PM EET
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project {F:/Digital Systems design with VHDL/VHDL_parameterizable_multiplier_project_5/parameterizable_multiplier/parameterizable_multiplier.xpr} 
+// Tcl Message: INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. Current project path is 'F:/Digital Systems design with VHDL/VHDL_parameterizable_multiplier_project_5/parameterizable_multiplier' INFO: [Project 1-313] Project file moved from 'C:/Users/Dismas/Desktop/VHDL_parameterizable_multiplier_project_5/parameterizable_multiplier' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/DigiXilinx/Vivado/2018.2/data/ip'. 
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 560 MB (+89182kb) [00:00:26]
+// [GUI Memory]: 55 MB (+4307kb) [00:00:29]
+// Project name: parameterizable_multiplier; location: F:/Digital Systems design with VHDL/VHDL_parameterizable_multiplier_project_5/parameterizable_multiplier; part: xc7a100tcsg324-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:22 ; elapsed = 00:00:19 . Memory (MB): peak = 760.754 ; gain = 111.254 
+// [GUI Memory]: 60 MB (+3100kb) [00:00:32]
+dismissDialog("Open Project"); // bx (ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Message: update_compile_order -fileset sources_1 
+// [GUI Memory]: 64 MB (+392kb) [00:01:12]
+// Elapsed time: 90 seconds
+maximizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // aw (aE, ck)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 4); // B (D, ck)
+// PAPropertyPanels.initPanels (multiplier.vhd) elapsed time: 0.3s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, multiplier_tb(Behavioral) (multiplier_tb.vhd), uut : multiplier(Behavioral) (multiplier.vhd)]", 2, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, multiplier_tb(Behavioral) (multiplier_tb.vhd), uut : multiplier(Behavioral) (multiplier.vhd)]", 2, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+// [Engine Memory]: 595 MB (+7199kb) [00:02:08]
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // O (Q, ck)
+// [GUI Memory]: 70 MB (+3667kb) [00:02:20]

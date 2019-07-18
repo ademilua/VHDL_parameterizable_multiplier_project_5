@@ -1,0 +1,281 @@
+/*
+
+Xilinx Vivado v2018.2 (64-bit) [Major: 2018, Minor: 2]
+SW Build: 2258646 on Thu Jun 14 20:03:12 MDT 2018
+IP Build: 2256618 on Thu Jun 14 22:10:49 MDT 2018
+
+Process ID: 6444
+License: Customer
+
+Current time: 	Tue Nov 20 20:13:49 EET 2018
+Time zone: 	Eastern European Time (Europe/Helsinki)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1366x768
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 92 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	C:/myXilinx/Vivado/2018.2/tps/win64/jre
+Java executable location: 	C:/myXilinx/Vivado/2018.2/tps/win64/jre/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 2 GB
+
+
+User name: 	Dismas
+User home directory: C:/Users/Dismas
+User working directory: C:/Users/Dismas/Desktop/VHDL_parameterizable_multiplier_project_5/parameterizable_multiplier
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: C:/myXilinx/Vivado
+HDI_APPROOT: C:/myXilinx/Vivado/2018.2
+RDI_DATADIR: C:/myXilinx/Vivado/2018.2/data
+RDI_BINDIR: C:/myXilinx/Vivado/2018.2/bin
+
+Vivado preferences file location: C:/Users/Dismas/AppData/Roaming/Xilinx/Vivado/2018.2/vivado.xml
+Vivado preferences directory: C:/Users/Dismas/AppData/Roaming/Xilinx/Vivado/2018.2/
+Vivado layouts directory: C:/Users/Dismas/AppData/Roaming/Xilinx/Vivado/2018.2/layouts
+PlanAhead jar file location: 	C:/myXilinx/Vivado/2018.2/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/Dismas/Desktop/VHDL_parameterizable_multiplier_project_5/parameterizable_multiplier/vivado.log
+Vivado journal file location: 	C:/Users/Dismas/Desktop/VHDL_parameterizable_multiplier_project_5/parameterizable_multiplier/vivado.jou
+Engine tmp dir: 	C:/Users/Dismas/Desktop/VHDL_parameterizable_multiplier_project_5/parameterizable_multiplier/.Xil/Vivado-6444-DESKTOP-56CSALG
+
+Xilinx Environment Variables
+----------------------------
+XILINX: C:/myXilinx/Vivado/2018.2/ids_lite/ISE
+XILINX_DSP: C:/myXilinx/Vivado/2018.2/ids_lite/ISE
+XILINX_PLANAHEAD: C:/myXilinx/Vivado/2018.2
+XILINX_SDK: C:/myXilinx/SDK/2018.2
+XILINX_VIVADO: C:/myXilinx/Vivado/2018.2
+XILINX_VIVADO_HLS: C:/myXilinx/Vivado/2018.2
+
+
+GUI allocated memory:	199 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 456 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// [GUI Memory]: 53 MB (+52713kb) [00:02:06]
+// [Engine Memory]: 456 MB (+326367kb) [00:02:06]
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// WARNING: HTimer (HSTRUtils Dump STR Log Timer) is taking 987ms to process. Increasing delay to 4000 ms.
+// TclEventType: PROJECT_OPEN_DIALOG
+// HMemoryUtils.trashcanNow. Engine heap size: 456 MB. GUI used memory: 37 MB. Current time: 11/20/18 8:13:54 PM EET
+// bx (ck):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\Dismas\Desktop\VHDL_parameterizable_multiplier_project_5\parameterizable_multiplier\parameterizable_multiplier.xpr. Version: Vivado v2018.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project C:/Users/Dismas/Desktop/VHDL_parameterizable_multiplier_project_5/parameterizable_multiplier/parameterizable_multiplier.xpr 
+// Tcl Message: INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. Current project path is 'C:/Users/Dismas/Desktop/VHDL_parameterizable_multiplier_project_5/parameterizable_multiplier' 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project C:/Users/Dismas/Desktop/VHDL_parameterizable_multiplier_project_5/parameterizable_multiplier/parameterizable_multiplier.xpr 
+// Tcl Message: INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. Current project path is 'C:/Users/Dismas/Desktop/VHDL_parameterizable_multiplier_project_5/parameterizable_multiplier' 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/myXilinx/Vivado/2018.2/data/ip'. 
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 497 MB (+19511kb) [00:03:06]
+// [GUI Memory]: 58 MB (+2647kb) [00:03:16]
+// HMemoryUtils.trashcanNow. Engine heap size: 521 MB. GUI used memory: 40 MB. Current time: 11/20/18 8:15:01 PM EET
+// Project name: parameterizable_multiplier; location: C:/Users/Dismas/Desktop/VHDL_parameterizable_multiplier_project_5/parameterizable_multiplier; part: xc7a100tcsg324-1
+// [Engine Memory]: 527 MB (+5633kb) [00:03:28]
+// WARNING: updateGUI() is taking  2046 ms.
+// WARNING: updateGUI() is taking  2844 ms.
+// Tcl Message: open_project: Time (s): cpu = 00:00:55 ; elapsed = 00:01:02 . Memory (MB): peak = 739.629 ; gain = 42.168 
+// WARNING: updateGUI() is taking  1220 ms.
+// WARNING: HTimer (FileMgr Design Graph Update Timer) is taking 1644ms to process. Increasing delay to 3000 ms.
+// WARNING: updateGUI() is taking  1074 ms.
+dismissDialog("Open Project"); // bx (ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 1012 ms. Increasing delay to 3000 ms.
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Message: update_compile_order -fileset sources_1 
+// HMemoryUtils.trashcanNow. Engine heap size: 542 MB. GUI used memory: 36 MB. Current time: 11/20/18 8:15:34 PM EET
+// PAPropertyPanels.initPanels (multiplier.vhd) elapsed time: 1.2s
+// [Engine Memory]: 558 MB (+4797kb) [00:04:22]
+// Elapsed time: 48 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, multiplier(Behavioral) (multiplier.vhd)]", 2, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, multiplier(Behavioral) (multiplier.vhd), four_bits_RCA(Behavioral) (four_bits_RCA.vhd)]", 3, false, false, false, false, false, true); // B (D, ck) - Double Click
+// HMemoryUtils.trashcanNow. Engine heap size: 562 MB. GUI used memory: 38 MB. Current time: 11/20/18 8:15:59 PM EET
+// [GUI Memory]: 61 MB (+191kb) [00:04:25]
+selectButton(PAResourceCommand.PACommandNames_TOGGLE_VIEW_NAV, (String) null); // B (E, ck)
+// Run Command: PAResourceCommand.PACommandNames_TOGGLE_VIEW_NAV
+// Elapsed time: 18 seconds
+selectCodeEditor("multiplier.vhd", 346, 140); // ce (w, ck)
+selectCodeEditor("multiplier.vhd", 366, 115); // ce (w, ck)
+selectCodeEditor("multiplier.vhd", 204, 266); // ce (w, ck)
+selectCodeEditor("multiplier.vhd", 200, 288); // ce (w, ck)
+selectCodeEditor("multiplier.vhd", 190, 304); // ce (w, ck)
+selectCodeEditor("multiplier.vhd", 136, 336); // ce (w, ck)
+selectCodeEditor("multiplier.vhd", 122, 351); // ce (w, ck)
+selectCodeEditor("multiplier.vhd", 92, 379); // ce (w, ck)
+selectCodeEditor("multiplier.vhd", 135, 423); // ce (w, ck)
+// [GUI Memory]: 65 MB (+626kb) [00:05:52]
+// [GUI Memory]: 69 MB (+1040kb) [00:06:07]
+// Elapsed time: 295 seconds
+selectCodeEditor("multiplier.vhd", 278, 274); // ce (w, ck)
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking 268ms to process. Increasing delay to 2000 ms.
+// Elapsed time: 30 seconds
+selectCodeEditor("multiplier.vhd", 143, 249); // ce (w, ck)
+selectCodeEditor("multiplier.vhd", 91, 189, false, false, false, true, false); // ce (w, ck) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_CUT, "Cut"); // ad (aj, Popup.HeavyWeightWindow)
+selectCodeEditor("multiplier.vhd", 95, 303); // ce (w, ck)
+selectCodeEditor("multiplier.vhd", 103, 260); // ce (w, ck)
+typeControlKey((HResource) null, "multiplier.vhd", 'v'); // ce (w, ck)
+selectCodeEditor("multiplier.vhd", 176, 235); // ce (w, ck)
+// [GUI Memory]: 73 MB (+1196kb) [00:11:25]
+// [GUI Memory]: 77 MB (+160kb) [00:13:16]
+// [GUI Memory]: 81 MB (+34kb) [00:21:06]
+// HMemoryUtils.trashcanNow. Engine heap size: 564 MB. GUI used memory: 40 MB. Current time: 11/20/18 8:46:03 PM EET
+// [GUI Memory]: 86 MB (+398kb) [00:37:24]
+// Elapsed time: 2632 seconds
+selectCodeEditor("multiplier.vhd", 230, 174); // ce (w, ck)
+// Elapsed time: 66 seconds
+typeControlKey((HResource) null, "multiplier.vhd", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "multiplier.vhd", 'v'); // ce (w, ck)
+// Elapsed time: 109 seconds
+selectCodeEditor("multiplier.vhd", 89, 267); // ce (w, ck)
+// HMemoryUtils.trashcanNow. Engine heap size: 564 MB. GUI used memory: 37 MB. Current time: 11/20/18 9:16:02 PM EET
+// Elapsed time: 476 seconds
+selectCodeEditor("multiplier.vhd", 401, 361); // ce (w, ck)
+typeControlKey((HResource) null, "multiplier.vhd", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "multiplier.vhd", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "multiplier.vhd", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "multiplier.vhd", 'v'); // ce (w, ck)
+typeControlKey(null, null, 'z');
+typeControlKey((HResource) null, "multiplier.vhd", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "multiplier.vhd", 'v'); // ce (w, ck)
+// Elapsed time: 59 seconds
+selectCodeEditor("multiplier.vhd", 163, 97); // ce (w, ck)
+typeControlKey((HResource) null, "multiplier.vhd", 'c'); // ce (w, ck)
+// Elapsed time: 11 seconds
+typeControlKey((HResource) null, "multiplier.vhd", 'v'); // ce (w, ck)
+// Elapsed time: 28 seconds
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// WARNING: HTimer (FileMgr Design Graph Update Timer) is taking 932ms to process. Increasing delay to 4000 ms.
+unMinimizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // aw
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectCodeEditor("multiplier.vhd", 108, 348); // ce (w, ck)
+// TclEventType: DG_GRAPH_GENERATED
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// WARNING: HTimer (FileMgr Design Graph Update Timer) is taking 838ms to process. Increasing delay to 5000 ms.
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 54 seconds
+selectCodeEditor("multiplier.vhd", 279, 279); // ce (w, ck)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// [GUI Memory]: 91 MB (+637kb) [01:09:14]
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 22 seconds
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 100 seconds
+selectCodeEditor("multiplier.vhd", 143, 283); // ce (w, ck)
+// Elapsed time: 12 seconds
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 18 seconds
+selectCodeEditor("multiplier.vhd", 126, 267); // ce (w, ck)
+// Elapsed time: 85 seconds
+typeControlKey((HResource) null, "multiplier.vhd", 'v'); // ce (w, ck)
+// Elapsed time: 232 seconds
+selectCodeEditor("multiplier.vhd", 115, 228); // ce (w, ck)
+// Elapsed time: 391 seconds
+selectCodeEditor("multiplier.vhd", 307, 226); // ce (w, ck)
+// Elapsed time: 100 seconds
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("multiplier.vhd", 271, 265); // ce (w, ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 25 seconds
+selectCodeEditor("multiplier.vhd", 317, 291); // ce (w, ck)
+// Elapsed time: 483 seconds
+selectCodeEditor("multiplier.vhd", 304, 79); // ce (w, ck)
+selectCodeEditor("multiplier.vhd", 298, 96); // ce (w, ck)
+selectCodeEditor("multiplier.vhd", 375, 135); // ce (w, ck)
+selectCodeEditor("multiplier.vhd", 446, 176); // ce (w, ck)
+selectCodeEditor("multiplier.vhd", 405, 220); // ce (w, ck)
+selectCodeEditor("multiplier.vhd", 360, 246); // ce (w, ck)
+selectCodeEditor("multiplier.vhd", 346, 241); // ce (w, ck)
+selectCodeEditor("multiplier.vhd", 343, 233); // ce (w, ck)
+selectCodeEditor("multiplier.vhd", 348, 263); // ce (w, ck)
+selectCodeEditor("multiplier.vhd", 366, 292); // ce (w, ck)
+selectCodeEditor("multiplier.vhd", 193, 333); // ce (w, ck)
+selectCodeEditor("multiplier.vhd", 145, 354); // ce (w, ck)
+selectCodeEditor("multiplier.vhd", 129, 366); // ce (w, ck)
+selectCodeEditor("multiplier.vhd", 123, 385); // ce (w, ck)
+// HMemoryUtils.trashcanNow. Engine heap size: 564 MB. GUI used memory: 38 MB. Current time: 11/20/18 9:46:03 PM EET
+// HMemoryUtils.trashcanNow. Engine heap size: 564 MB. GUI used memory: 38 MB. Current time: 11/20/18 10:16:04 PM EET
+// Elapsed time: 1836 seconds
+selectCodeEditor("multiplier.vhd", 247, 272); // ce (w, ck)
+selectCodeEditor("multiplier.vhd", 240, 263); // ce (w, ck)
+// Elapsed time: 19 seconds
+typeControlKey((HResource) null, "multiplier.vhd", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "multiplier.vhd", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "multiplier.vhd", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "multiplier.vhd", 'v'); // ce (w, ck)
+// Elapsed time: 32 seconds
+typeControlKey((HResource) null, "multiplier.vhd", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "multiplier.vhd", 'v'); // ce (w, ck)
+// Elapsed time: 11 seconds
+typeControlKey((HResource) null, "multiplier.vhd", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "multiplier.vhd", 'v'); // ce (w, ck)
+// Elapsed time: 127 seconds
+selectCodeEditor("multiplier.vhd", 213, 266); // ce (w, ck)
+selectCodeEditor("multiplier.vhd", 231, 163); // ce (w, ck)
+selectCodeEditor("multiplier.vhd", 225, 138); // ce (w, ck)
+selectCodeEditor("multiplier.vhd", 104, 162); // ce (w, ck)
+// Elapsed time: 51 seconds
+selectCodeEditor("multiplier.vhd", 10, 365); // ce (w, ck)
+// Elapsed time: 198 seconds
+typeControlKey((HResource) null, "multiplier.vhd", 'c'); // ce (w, ck)
+// Elapsed time: 10 seconds
+typeControlKey((HResource) null, "multiplier.vhd", 'v'); // ce (w, ck)
+// Elapsed time: 97 seconds
+typeControlKey((HResource) null, "multiplier.vhd", 'v'); // ce (w, ck)
+// Elapsed time: 53 seconds
+typeControlKey((HResource) null, "multiplier.vhd", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "multiplier.vhd", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "multiplier.vhd", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "multiplier.vhd", 'v'); // ce (w, ck)
+// Elapsed time: 22 seconds
+selectCodeEditor("multiplier.vhd", 39, 301); // ce (w, ck)
+// Elapsed time: 112 seconds
+typeControlKey((HResource) null, "multiplier.vhd", 'c'); // ce (w, ck)
+// Elapsed time: 14 seconds
+typeControlKey((HResource) null, "multiplier.vhd", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "multiplier.vhd", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "multiplier.vhd", 'v'); // ce (w, ck)
+// Elapsed time: 81 seconds
+selectCodeEditor("multiplier.vhd", 72, 265); // ce (w, ck)

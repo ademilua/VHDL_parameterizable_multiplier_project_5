@@ -1,0 +1,129 @@
+/*
+
+Xilinx Vivado v2018.2 (64-bit) [Major: 2018, Minor: 2]
+SW Build: 2258646 on Thu Jun 14 20:03:12 MDT 2018
+IP Build: 2256618 on Thu Jun 14 22:10:49 MDT 2018
+
+Process ID: 4668
+License: Customer
+
+Current time: 	Thu Nov 22 14:54:20 EET 2018
+Time zone: 	Eastern European Time (Europe/Helsinki)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1366x768
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 92 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	C:/myXilinx/Vivado/2018.2/tps/win64/jre
+Java executable location: 	C:/myXilinx/Vivado/2018.2/tps/win64/jre/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 2 GB
+
+
+User name: 	Dismas
+User home directory: C:/Users/Dismas
+User working directory: C:/Users/Dismas/Desktop/VHDL_parameterizable_multiplier_project_5/parameterizable_adder_project
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: C:/myXilinx/Vivado
+HDI_APPROOT: C:/myXilinx/Vivado/2018.2
+RDI_DATADIR: C:/myXilinx/Vivado/2018.2/data
+RDI_BINDIR: C:/myXilinx/Vivado/2018.2/bin
+
+Vivado preferences file location: C:/Users/Dismas/AppData/Roaming/Xilinx/Vivado/2018.2/vivado.xml
+Vivado preferences directory: C:/Users/Dismas/AppData/Roaming/Xilinx/Vivado/2018.2/
+Vivado layouts directory: C:/Users/Dismas/AppData/Roaming/Xilinx/Vivado/2018.2/layouts
+PlanAhead jar file location: 	C:/myXilinx/Vivado/2018.2/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/Dismas/Desktop/VHDL_parameterizable_multiplier_project_5/parameterizable_adder_project/vivado.log
+Vivado journal file location: 	C:/Users/Dismas/Desktop/VHDL_parameterizable_multiplier_project_5/parameterizable_adder_project/vivado.jou
+Engine tmp dir: 	C:/Users/Dismas/Desktop/VHDL_parameterizable_multiplier_project_5/parameterizable_adder_project/.Xil/Vivado-4668-DESKTOP-56CSALG
+
+Xilinx Environment Variables
+----------------------------
+XILINX: C:/myXilinx/Vivado/2018.2/ids_lite/ISE
+XILINX_DSP: C:/myXilinx/Vivado/2018.2/ids_lite/ISE
+XILINX_PLANAHEAD: C:/myXilinx/Vivado/2018.2
+XILINX_SDK: C:/myXilinx/SDK/2018.2
+XILINX_VIVADO: C:/myXilinx/Vivado/2018.2
+XILINX_VIVADO_HLS: C:/myXilinx/Vivado/2018.2
+
+
+GUI allocated memory:	201 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 469 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// [GUI Memory]: 36 MB (+34861kb) [00:00:23]
+// [Engine Memory]: 387 MB (+253835kb) [00:00:23]
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// WARNING: HTimer (HSTRUtils Dump STR Log Timer) is taking 615ms to process. Increasing delay to 4000 ms.
+// TclEventType: PROJECT_OPEN_DIALOG
+// bx (ck):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\Dismas\Desktop\VHDL_parameterizable_multiplier_project_5\parameterizable_adder_project\parameterizable_adder_project.xpr. Version: Vivado v2018.2 
+// [GUI Memory]: 50 MB (+12746kb) [00:00:49]
+// [Engine Memory]: 469 MB (+65765kb) [00:00:49]
+// HMemoryUtils.trashcanNow. Engine heap size: 472 MB. GUI used memory: 33 MB. Current time: 11/22/18 2:54:25 PM EET
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project C:/Users/Dismas/Desktop/VHDL_parameterizable_multiplier_project_5/parameterizable_adder_project/parameterizable_adder_project.xpr 
+// Tcl Message: INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. Current project path is 'C:/Users/Dismas/Desktop/VHDL_parameterizable_multiplier_project_5/parameterizable_adder_project' 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project C:/Users/Dismas/Desktop/VHDL_parameterizable_multiplier_project_5/parameterizable_adder_project/parameterizable_adder_project.xpr 
+// Tcl Message: INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. Current project path is 'C:/Users/Dismas/Desktop/VHDL_parameterizable_multiplier_project_5/parameterizable_adder_project' 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/myXilinx/Vivado/2018.2/data/ip'. 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 54 MB (+1775kb) [00:01:25]
+// [Engine Memory]: 517 MB (+26453kb) [00:01:25]
+// [GUI Memory]: 57 MB (+927kb) [00:01:44]
+// HMemoryUtils.trashcanNow. Engine heap size: 519 MB. GUI used memory: 38 MB. Current time: 11/22/18 2:55:23 PM EET
+// Tcl Message: open_project: Time (s): cpu = 00:01:10 ; elapsed = 00:00:58 . Memory (MB): peak = 768.707 ; gain = 57.234 
+// Project name: parameterizable_adder_project; location: C:/Users/Dismas/Desktop/VHDL_parameterizable_multiplier_project_5/parameterizable_adder_project; part: xc7a100tcsg324-1
+// WARNING: HTimer (FileMgr Design Graph Update Timer) is taking 532ms to process. Increasing delay to 3000 ms.
+dismissDialog("Open Project"); // bx (ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Message: update_compile_order -fileset sources_1 
+// [GUI Memory]: 60 MB (+157kb) [00:03:50]
+// [GUI Memory]: 64 MB (+976kb) [00:07:00]
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking 255ms to process. Increasing delay to 2000 ms.
+// [GUI Memory]: 68 MB (+468kb) [00:11:00]
+// WARNING: HTimer (StateMonitor Timer) is taking 787ms to process. Increasing delay to 4000 ms.
+// [GUI Memory]: 72 MB (+461kb) [00:15:46]
+// Elapsed time: 1140 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 3); // B (D, ck)
+// PAPropertyPanels.initPanels (four_bits_RCA_tb.vhd) elapsed time: 0.9s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, four_bits_RCA_tb(Behavioral) (four_bits_RCA_tb.vhd)]", 5, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, four_bits_RCA_tb(Behavioral) (four_bits_RCA_tb.vhd)]", 5, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+// Elapsed time: 37 seconds
+selectCodeEditor("four_bits_RCA_tb.vhd", 212, 123); // ce (w, ck)
+typeControlKey((HResource) null, "four_bits_RCA_tb.vhd", 'c'); // ce (w, ck)
+// [GUI Memory]: 78 MB (+2177kb) [00:22:01]
+// Elapsed time: 26 seconds
+selectCodeEditor("four_bits_RCA_tb.vhd", 100, 265); // ce (w, ck)
+typeControlKey((HResource) null, "four_bits_RCA_tb.vhd", 'c'); // ce (w, ck)
+// [GUI Memory]: 82 MB (+364kb) [00:25:21]
+// HMemoryUtils.trashcanNow. Engine heap size: 519 MB. GUI used memory: 39 MB. Current time: 11/22/18 3:25:28 PM EET

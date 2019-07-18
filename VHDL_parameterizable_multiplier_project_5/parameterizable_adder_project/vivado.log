@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Thu Nov 22 14:53:03 2018
+# Process ID: 4668
+# Current directory: C:/Users/Dismas/Desktop/VHDL_parameterizable_multiplier_project_5/parameterizable_adder_project
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8000 C:\Users\Dismas\Desktop\VHDL_parameterizable_multiplier_project_5\parameterizable_adder_project\parameterizable_adder_project.xpr
+# Log file: C:/Users/Dismas/Desktop/VHDL_parameterizable_multiplier_project_5/parameterizable_adder_project/vivado.log
+# Journal file: C:/Users/Dismas/Desktop/VHDL_parameterizable_multiplier_project_5/parameterizable_adder_project\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Dismas/Desktop/VHDL_parameterizable_multiplier_project_5/parameterizable_adder_project/parameterizable_adder_project.xpr
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/Dismas/Desktop/VHDL_parameterizable_multiplier_project_5/parameterizable_adder_project'
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/myXilinx/Vivado/2018.2/data/ip'.
+open_project: Time (s): cpu = 00:01:10 ; elapsed = 00:00:58 . Memory (MB): peak = 768.707 ; gain = 57.234
+update_compile_order -fileset sources_1

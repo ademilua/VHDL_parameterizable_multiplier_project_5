@@ -1,0 +1,20 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Mon Nov 26 21:22:25 2018
+# Process ID: 8120
+# Current directory: F:/Digital Systems design with VHDL/VHDL_parameterizable_multiplier_project_5/parameterizable_multiplier
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9188 F:\Digital Systems design with VHDL\VHDL_parameterizable_multiplier_project_5\parameterizable_multiplier\parameterizable_multiplier.xpr
+# Log file: F:/Digital Systems design with VHDL/VHDL_parameterizable_multiplier_project_5/parameterizable_multiplier/vivado.log
+# Journal file: F:/Digital Systems design with VHDL/VHDL_parameterizable_multiplier_project_5/parameterizable_multiplier\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {F:/Digital Systems design with VHDL/VHDL_parameterizable_multiplier_project_5/parameterizable_multiplier/parameterizable_multiplier.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+source multiplier_tb.tcl
+open_project {F:/Digital Systems design with VHDL/VHDL_parameterizable_multiplier_project_5/parameterizable_adder_project/parameterizable_adder_project.xpr}
+update_compile_order -fileset sources_1
+close_project
+close_sim

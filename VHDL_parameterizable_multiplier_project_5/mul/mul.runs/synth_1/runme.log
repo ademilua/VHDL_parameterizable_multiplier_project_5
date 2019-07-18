@@ -1,0 +1,22 @@
+
+*** Running vivado
+    with args -log multi.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source multi.tcl
+
+
+****** Vivado v2018.2 (64-bit)
+  **** SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+  **** IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source multi.tcl -notrace
+Command: synth_design -top multi -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 4884 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 334.965 ; gain = 99.770
+---------------------------------------------------------------------------------
+Abnormal program termination (EXCEPTION_ACCESS_VIOLATION)
+Please check 'C:/Users/Dismas/Desktop/VHDL_parameterizable_multiplier_project_5/mul/mul.runs/synth_1/hs_err_pid6160.log' for details

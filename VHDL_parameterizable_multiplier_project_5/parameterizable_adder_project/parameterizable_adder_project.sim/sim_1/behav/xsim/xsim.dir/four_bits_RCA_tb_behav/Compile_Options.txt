@@ -1,0 +1,1 @@
+-wto "2361e4ac0fd949128a7b45bc5fa12560" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "four_bits_RCA_tb_behav" "xil_defaultlib.four_bits_RCA_tb" -log "elaborate.log" 

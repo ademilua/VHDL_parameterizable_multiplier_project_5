@@ -1,0 +1,112 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Mon Nov 26 21:22:25 2018
+# Process ID: 8120
+# Current directory: F:/Digital Systems design with VHDL/VHDL_parameterizable_multiplier_project_5/parameterizable_multiplier
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9188 F:\Digital Systems design with VHDL\VHDL_parameterizable_multiplier_project_5\parameterizable_multiplier\parameterizable_multiplier.xpr
+# Log file: F:/Digital Systems design with VHDL/VHDL_parameterizable_multiplier_project_5/parameterizable_multiplier/vivado.log
+# Journal file: F:/Digital Systems design with VHDL/VHDL_parameterizable_multiplier_project_5/parameterizable_multiplier\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {F:/Digital Systems design with VHDL/VHDL_parameterizable_multiplier_project_5/parameterizable_multiplier/parameterizable_multiplier.xpr}
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'F:/Digital Systems design with VHDL/VHDL_parameterizable_multiplier_project_5/parameterizable_multiplier'
+INFO: [Project 1-313] Project file moved from 'C:/Users/Dismas/Desktop/VHDL_parameterizable_multiplier_project_5/parameterizable_multiplier' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/DigiXilinx/Vivado/2018.2/data/ip'.
+open_project: Time (s): cpu = 00:00:17 ; elapsed = 00:00:23 . Memory (MB): peak = 738.594 ; gain = 63.332
+update_compile_order -fileset sources_1
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'F:/Digital Systems design with VHDL/VHDL_parameterizable_multiplier_project_5/parameterizable_multiplier/parameterizable_multiplier.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'multiplier_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'F:/Digital Systems design with VHDL/VHDL_parameterizable_multiplier_project_5/parameterizable_multiplier/parameterizable_multiplier.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj multiplier_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "F:/Digital Systems design with VHDL/VHDL_parameterizable_multiplier_project_5/parameterizable_multiplier/parameterizable_multiplier.srcs/sources_1/new/four_bits_RCA.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity four_bits_RCA
+INFO: [VRFC 10-163] Analyzing VHDL file "F:/Digital Systems design with VHDL/VHDL_parameterizable_multiplier_project_5/parameterizable_multiplier/parameterizable_multiplier.srcs/sources_1/new/multiplier.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity multiplier
+INFO: [VRFC 10-163] Analyzing VHDL file "F:/Digital Systems design with VHDL/VHDL_parameterizable_multiplier_project_5/parameterizable_multiplier/parameterizable_multiplier.srcs/sources_1/new/multiplier_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity multiplier_tb
+WARNING: [VRFC 10-2116] signal data_width_mul is used in subtype-indication/type-definition [F:/Digital Systems design with VHDL/VHDL_parameterizable_multiplier_project_5/parameterizable_multiplier/parameterizable_multiplier.srcs/sources_1/new/multiplier_tb.vhd:20]
+WARNING: [VRFC 10-2116] signal data_width_mul is used in subtype-indication/type-definition [F:/Digital Systems design with VHDL/VHDL_parameterizable_multiplier_project_5/parameterizable_multiplier/parameterizable_multiplier.srcs/sources_1/new/multiplier_tb.vhd:21]
+WARNING: [VRFC 10-2116] signal data_width_mul is used in subtype-indication/type-definition [F:/Digital Systems design with VHDL/VHDL_parameterizable_multiplier_project_5/parameterizable_multiplier/parameterizable_multiplier.srcs/sources_1/new/multiplier_tb.vhd:22]
+INFO: [USF-XSim-69] 'compile' step finished in '4' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'F:/Digital Systems design with VHDL/VHDL_parameterizable_multiplier_project_5/parameterizable_multiplier/parameterizable_multiplier.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/DigiXilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 20b0b60a6a144c8ca9a3b56eed27c8ba --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot multiplier_tb_behav xil_defaultlib.multiplier_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-1625] value in initialization depends on signal data_width_mul [F:/Digital Systems design with VHDL/VHDL_parameterizable_multiplier_project_5/parameterizable_multiplier/parameterizable_multiplier.srcs/sources_1/new/multiplier_tb.vhd:20]
+WARNING: [VRFC 10-1625] value in initialization depends on signal data_width_mul [F:/Digital Systems design with VHDL/VHDL_parameterizable_multiplier_project_5/parameterizable_multiplier/parameterizable_multiplier.srcs/sources_1/new/multiplier_tb.vhd:21]
+WARNING: [VRFC 10-1625] value in initialization depends on signal data_width_mul [F:/Digital Systems design with VHDL/VHDL_parameterizable_multiplier_project_5/parameterizable_multiplier/parameterizable_multiplier.srcs/sources_1/new/multiplier_tb.vhd:22]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.four_bits_RCA [four_bits_rca_default]
+Compiling architecture behavioral of entity xil_defaultlib.multiplier [multiplier_default]
+Compiling architecture behavioral of entity xil_defaultlib.multiplier_tb
+Built simulation snapshot multiplier_tb_behav
+
+****** Webtalk v2018.2 (64-bit)
+  **** SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+  **** IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source F:/Digital -notrace
+couldn't read file "F:/Digital": no such file or directory
+INFO: [Common 17-206] Exiting Webtalk at Mon Nov 26 21:24:09 2018...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:10 . Memory (MB): peak = 752.637 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '10' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'F:/Digital Systems design with VHDL/VHDL_parameterizable_multiplier_project_5/parameterizable_multiplier/parameterizable_multiplier.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "multiplier_tb_behav -key {Behavioral:sim_1:Functional:multiplier_tb} -tclbatch {multiplier_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source multiplier_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'multiplier_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:10 ; elapsed = 00:00:20 . Memory (MB): peak = 775.480 ; gain = 22.844
+open_project {F:/Digital Systems design with VHDL/VHDL_parameterizable_multiplier_project_5/parameterizable_adder_project/parameterizable_adder_project.xpr}
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'F:/Digital Systems design with VHDL/VHDL_parameterizable_multiplier_project_5/parameterizable_adder_project'
+INFO: [Project 1-313] Project file moved from 'C:/Users/Dismas/Desktop/VHDL_parameterizable_multiplier_project_5/parameterizable_adder_project' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/DigiXilinx/Vivado/2018.2/data/ip'.
+open_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:11 . Memory (MB): peak = 816.152 ; gain = 24.891
+update_compile_order -fileset sources_1
+close_project
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Nov 26 21:35:05 2018...

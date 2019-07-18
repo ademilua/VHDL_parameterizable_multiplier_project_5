@@ -1,0 +1,20 @@
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/DigiXilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 20b0b60a6a144c8ca9a3b56eed27c8ba --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot multiplier_tb_behav xil_defaultlib.multiplier_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-1625] value in initialization depends on signal data_width_mul [F:/Digital Systems design with VHDL/VHDL_parameterizable_multiplier_project_5/parameterizable_multiplier/parameterizable_multiplier.srcs/sources_1/new/multiplier_tb.vhd:20]
+WARNING: [VRFC 10-1625] value in initialization depends on signal data_width_mul [F:/Digital Systems design with VHDL/VHDL_parameterizable_multiplier_project_5/parameterizable_multiplier/parameterizable_multiplier.srcs/sources_1/new/multiplier_tb.vhd:21]
+WARNING: [VRFC 10-1625] value in initialization depends on signal data_width_mul [F:/Digital Systems design with VHDL/VHDL_parameterizable_multiplier_project_5/parameterizable_multiplier/parameterizable_multiplier.srcs/sources_1/new/multiplier_tb.vhd:22]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.four_bits_RCA [four_bits_rca_default]
+Compiling architecture behavioral of entity xil_defaultlib.multiplier [multiplier_default]
+Compiling architecture behavioral of entity xil_defaultlib.multiplier_tb
+Built simulation snapshot multiplier_tb_behav
